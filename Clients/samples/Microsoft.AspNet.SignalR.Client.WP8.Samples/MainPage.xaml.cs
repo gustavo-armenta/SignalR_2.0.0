@@ -14,7 +14,7 @@ namespace Microsoft.AspNet.SignalR.Client.WP8.Samples
 
             var writer = new TextBlockWriter(SynchronizationContext.Current, this.Messages);
             var client = new CommonClient(writer);
-            client.RunAsync("http://signalr-test1.cloudapp.net:81/");
+            client.RunAsync("http://signalr-test1.cloudapp.net:82/");
 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
